@@ -1,5 +1,12 @@
-alias hgs="hg status"
+alias hgs="hg status ."
 alias hgg="hg glog -l 20"
 alias hgsu="hg summary"
 alias hgcm="hg commit -m"
+alias hgd="hg ksdiff"
+alias hgss="hg status"
+alias hgc="hg commit"
+alias hgclosebr="hg commit --close-branch"
+alias hgbm="hg bookmarks"
+alias hgb="hg bookmark"
+alias hguc="hg update -C"
 
